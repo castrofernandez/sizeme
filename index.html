@@ -1,0 +1,36 @@
+<html>
+        <head>
+            <style>
+                body:before {
+                    content: "mobile";
+                    display: none; /* Prevent from displaying. */
+                }
+
+                @media (min-width: 700px) {
+                    body:before {
+                        content: "tablet";
+                    }
+                }
+
+                @media (min-width: 1100px) {
+                    body:before {
+                        content: "desktop";
+                    }
+                }
+
+                @media (min-width: 1400px) {
+                    body:before {
+                        content: "big_desktop";
+                    }
+                }
+            </style>
+            <script src="index.js"></script>
+        </head>
+        <body>
+            This document is used to run the server. Start the tests with:
+            <ul>
+                <li>node server.js</li>
+                <li>npm test</li>
+            </ul>
+        </body>    
+    </html>
