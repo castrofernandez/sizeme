@@ -13,7 +13,7 @@ npm install sizeme
 var sizeme = require('sizeme');
 
 // You can set sizes in JS:
-size.load({
+sizeme.load({
     sizes: [
     {
       type: 'mobile',
