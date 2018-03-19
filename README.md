@@ -1,5 +1,5 @@
 # sizeme
-Library to measure browser size.
+Library to measure browser size based on CSS or JS configuration.
 
 1. Install 
 
