@@ -59,7 +59,7 @@ var sizeme = (function() {
     if (!moduleSettings.forceJsSizes) {
       var type = getCssDeviceType();
 
-      if (type !== 'none' && type !== '')  {
+      if (type !== 'none' && type !== '') {
         return type;
       }
     }
