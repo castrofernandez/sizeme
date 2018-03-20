@@ -64,7 +64,7 @@ sizeme.isDesktop();
 3. Run tests
 
 ```
-node server.js
+npm start // or node server.js
 npm test
 ```
 

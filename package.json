@@ -1,10 +1,11 @@
 {
   "name": "sizeme",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Library to measure browser size. Edit",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
